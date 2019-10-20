@@ -1,4 +1,4 @@
-const key = require('libsodium-wrappers');
+const key = require('libsodium-wrappers'); 
 let keypair;
 let loadLibsodium = async () => await key.ready;
 
